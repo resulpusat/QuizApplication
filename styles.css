@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Genel sayfa stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quiz kartları için stil */
+.question-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Soru başlığı için stil */
+.question-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Soru metni için stil */
+.question-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Seçenekler için stil */
+.options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Cevap seçenekleri için stil */
+.options input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Buton stilini burada belirleyebilirsiniz */
+.button {
+    background-color: #4CAF50; /* Yeşil */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
